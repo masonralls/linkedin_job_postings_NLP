@@ -1,0 +1,87 @@
+# ----------------------
+# PYTHON / VENV JUNK
+# ----------------------
+venv/
+.env/
+.venv/
+ENV/
+env/
+pip-wheel-metadata/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# ----------------------
+# PACKAGES / SITE-PACKAGES
+# ----------------------
+# (Prevents timezone, spacy models, torch libs, transformers, etc. from showing up)
+**/site-packages/
+**/dist-packages/
+
+# ----------------------
+# BUILD / DISTRIBUTION
+# ----------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ----------------------
+# JUPYTER
+# ----------------------
+.ipynb_checkpoints/
+
+# ----------------------
+# CACHE / LOGS
+# ----------------------
+.cache/
+logs/
+*.log
+
+# ----------------------
+# NLP MODELS & ARTIFACTS
+# (HuggingFace, spaCy, tokenizer data, embeddings, checkpoints, etc.)
+# ----------------------
+models/
+checkpoints/
+tokenizer/
+output/
+outputs/
+data/
+datasets/
+experiments/
+
+# HuggingFace transformers caches
+~/.cache/huggingface/
+huggingface/
+hf_cache/
+transformers_cache/
+
+# spaCy model directories
+**/spacy_models/
+
+# ----------------------
+# EDITOR / OS FILES
+# ----------------------
+.vscode/
+.DS_Store
+*.swp
+*.swo
+
+# ----------------------
+# ENVIRONMENT / CREDENTIALS
+# ----------------------
+*.env
+.env.*
+*.ini
+*.cfg
+.secret/
+secrets.json
+
+# ----------------------
+# OTHER
+# ----------------------
+tmp/
+temp/
