@@ -1,11 +1,44 @@
-ipython
-jupyterlab
-matplotlib
-notebook
+# Core Python utilities
 numpy
 pandas
-pip
-python-dotenv
-ruff
+tqdm
+
+# Machine Learning
 scikit-learn
--e .
+
+# Deep Learning (PyTorch)
+torch
+torchvision
+torchaudio
+
+# HuggingFace ecosystem
+transformers
+datasets
+evaluate
+sentencepiece
+tokenizers
+
+# spaCy NLP
+spacy
+spacy-transformers
+
+# Text preprocessing
+nltk
+beautifulsoup4
+regex
+
+# Model serving / experimentation
+protobuf
+pydantic
+
+# Notebook & visualization
+jupyter
+ipykernel
+matplotlib
+seaborn
+
+# Optional: to avoid tokenizer warnings
+accelerate
+
+# Optional but recommended for large experiments
+python-dotenv
